@@ -18,7 +18,7 @@
  */
 
 /**
- * @fileoverview AtralsX blocks for Blockly.
+ * @fileoverview AtlasX blocks for Blockly.
  * @author hiroya@cuc.ac.jp (Hiroya Kubo)
  */
 'use strict';
@@ -31,7 +31,7 @@ Blockly.Language.atlasx = {
   category: Blockly.LANG_CATEGORY_ATLASX,
   helpUrl: Blockly.LANG_CATEGORY_ATLASX_HELPURL,
   init: function() {
-    this.setColour(160);
+    this.setColour(360);
     this.appendDummyInput()
         .appendTitle(new Blockly.FieldImage(Blockly.pathToBlockly +
         'media/quote0.png', 12, 12))
